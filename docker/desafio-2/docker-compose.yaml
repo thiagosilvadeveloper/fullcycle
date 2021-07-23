@@ -18,7 +18,7 @@ services:
     build: 
       context: ./node
     container_name: node-app
-    entrypoint: node index.js
+    entrypoint: node server.js
     networks: 
       - node-network
     volumes: 
