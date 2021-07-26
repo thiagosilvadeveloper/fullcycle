@@ -6,4 +6,6 @@ COPY . .
 
 RUN apt-get update && apt-get install -y wget
 
+ENTRYPOINT [ "npm","install" ]
+
 EXPOSE 3000
